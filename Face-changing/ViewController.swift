@@ -39,7 +39,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate {
         // sceneView.debugOptions =  .showWireframe
         
         // 如果要显示摄像头内容需要注释掉
-        sceneView.scene.background.contents = UIColor.black
+        //sceneView.scene.background.contents = UIColor.black
         
         // ARSCNFaceGeometry
         let device = sceneView.device!
